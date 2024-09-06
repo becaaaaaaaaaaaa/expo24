@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #80458fcb, #5291cc); /* Fundo azul em degradê */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #fff; /* Branco */
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-family: "Lora", serif;
+}
+
+#advice-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    border-radius: 8px;
+}
+
+#advice {
+    font-size: 1.2em;
+    color: #fff; /* Branco */
+    font-family: "Lora", serif;
+}
+
+button {
+    background-color: #fff; /* Botão branco */
+    color: #1e3c72; /* Texto do botão azul escuro */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Lora", serif;
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo para o texto do trabalho */
+.expo-info {
+    margin-top: 30px;
+    text-align: center;
+    color: #fff; /* Branco */
+    font-size: 1em;
+    padding: 10px;
+    font-family: "Lora", serif;
+}
+
+
